@@ -48,6 +48,7 @@ export default function Homepage(props) {
         <h2 style={{ color: props.mode === "dark" ? "red" : "blue" }}>this is you text summary</h2>
         <p>
           <b>Words: </b>
+         {text.trim()}
           {text.split(" ").length - 1} , <b>Chararacters:</b> {text.length}
         </p>
         <p>
